@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Market Place</title>
+  <!-- start icons -->
+  <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+  <!-- end icons -->
+
+  <!-- start fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Itim&family=Jersey+25&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Itim&family=Jersey+25&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Itim&family=Jersey+25&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/creators.css" />
+</head>
+
+  <body>
+    <nav>
+      <div class="bar-nav">
+        <img src="images/logo.png" alt="" srcset="" />
+      </div>
+      <div class="nav-link">
+        <i class="bi bi-list"></i>
+        <ul>
+          <li>
+            <a href="/index.html" class="active"
+              >home
+              <strong
+                ><span>+</span>
+                <p>-</p></strong
+              ></a
+            >
+            <ul class="drop-home">
+              <li><a href="/index.html">home 01</a></li>
+              <li><a href="#">home 02</a></li>
+              <li><a href="#">home 03</a></li>
+            </ul>
+          </li>
+          <li><a href="/about.html">about us</a></li>
+          <li>
+            <a href=""
+              >Tournament
+              <strong
+                ><span>+</span>
+                <p>-</p></strong
+              ></a
+            >
+            <ul class="drop-home">
+              <li><a href="#">Tournament</a></li>
+              <li><a href="#">Tournament details</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="/shop.html"
+              >shop
+              <strong
+                ><span>+</span>
+                <p>-</p></strong
+              ></a
+            >
+            <ul class="drop-home">
+              <li><a href="/shop.html">Shop</a></li>
+              <li><a href="#">Shop Details</a></li>
+              <li><a href="#">Explore product</a></li>
+              <li><a href="#">Cart</a></li>
+              <li><a href="#">Checkout</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href=""
+              >pages
+              <strong
+                ><span>+</span>
+                <p>-</p></strong
+              ></a
+            >
+            <ul class="drop-home">
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Blog List</a></li>
+              <li><a href="#">Blog Grid</a></li>
+              <li><a href="#">Blog Details</a></li>
+              <li><a href="#">Create Items</a></li>
+              <li><a href="#">Creators</a></li>
+              <li><a href="#">Creator details</a></li>
+              <li><a href="#">service</a></li>
+              <li><a href="#"></a>Service Details</li>
+              <li><a href="#">team</a></li>
+              <li><a href="#">team Details</a></li>
+              <li><a href="#">Auction</a></li>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Wallet</a></li>
+              <li><a href="#">404</a></li>
+            </ul>
+          </li>
+          <li><a href="/contact.html">contact us</a></li>
+        </ul>
+        <div class="right-nav">
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="bi bi-cart3"></i>
+          </div>
+          <div class="nav-btn">
+            <i class="bx bx-menu-alt-right"></i>
+            <p>
+              <span><i class="fa-regular fa-circle-right"></i> </span> ~ connect
+            </p>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="tournament">
+      <h2>TOP <span>CREATORS</span></h2>
+      <p>
+        <a href="/index.html">home</a> <i class="fa-solid fa-chevron-right"></i>
+        <b>top creators</b>
+      </p>
+    </div>
+
+    <!-- cards sections top creators -->
+    <section>
+      <div class="creators-cards">
+        <div class="card">
+          <div class="bg-card">
+            <img src="images/ceobg1.png" alt="" srcset="" />
+          </div>
+          <div class="profil-card">
+            <img src="images/ceo-character1.png" alt="" srcset="" />
+          </div>
+          <div class="center-card">
+            <a href="">alexander pul</a>
+            <p>ceo</p>
+          </div>
+          <div class="bottom-card">
+            <div></div>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="bg-card">
+            <img src="images/ceobg2.png" alt="" srcset="" />
+          </div>
+          <div class="profil-card">
+            <img src="images/ceo-character2.png" alt="" srcset="" />
+          </div>
+          <div class="center-card">
+            <a href="">alexander pul</a>
+            <p>ceo</p>
+          </div>
+          <div class="bottom-card">
+            <div></div>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="bg-card">
+            <img src="images/ceobg3.png" alt="" srcset="" />
+          </div>
+          <div class="profil-card">
+            <img src="images/ceo-character3.png" alt="" srcset="" />
+          </div>
+          <div class="center-card">
+            <a href="">alexander pul</a>
+            <p>ceo</p>
+          </div>
+          <div class="bottom-card">
+            <div></div>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="bg-card">
+            <img src="images/ceobg4.png" alt="" srcset="" />
+          </div>
+          <div class="profil-card">
+            <img src="images/ceo-character4.png" alt="" srcset="" />
+          </div>
+          <div class="center-card">
+            <a href="">alexander pul</a>
+            <p>ceo</p>
+          </div>
+          <div class="bottom-card">
+            <div></div>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="bg-card">
+            <img src="images/ceobg5.png" alt="" srcset="" />
+          </div>
+          <div class="profil-card">
+            <img src="images/ceo-character5.png" alt="" srcset="" />
+          </div>
+          <div class="center-card">
+            <a href="">alexander pul</a>
+            <p>ceo</p>
+          </div>
+          <div class="bottom-card">
+            <div></div>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="bg-card">
+            <img src="images/ceobg6.png" alt="" srcset="" />
+          </div>
+          <div class="profil-card">
+            <img src="images/ceo-character6.png" alt="" srcset="" />
+          </div>
+          <div class="center-card">
+            <a href="">alexander pul</a>
+            <p>ceo</p>
+          </div>
+          <div class="bottom-card">
+            <div></div>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="bg-card">
+            <img src="images/ceobg7.png" alt="" srcset="" />
+          </div>
+          <div class="profil-card">
+            <img src="images/ceo-character7.png" alt="" srcset="" />
+          </div>
+          <div class="center-card">
+            <a href="">alexander pul</a>
+            <p>ceo</p>
+          </div>
+          <div class="bottom-card">
+            <div></div>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="bg-card">
+            <img src="images/ceobg8.png" alt="" srcset="" />
+          </div>
+          <div class="profil-card">
+            <img src="images/ceo-character8.png" alt="" srcset="" />
+          </div>
+          <div class="center-card">
+            <a href="">alexander pul</a>
+            <p>ceo</p>
+          </div>
+          <div class="bottom-card">
+            <div></div>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="bg-card">
+            <img src="images/ceobg9.png" alt="" srcset="" />
+          </div>
+          <div class="profil-card">
+            <img src="images/ceo-character2.png" alt="" srcset="" />
+          </div>
+          <div class="center-card">
+            <a href="">alexander pul</a>
+            <p>ceo</p>
+          </div>
+          <div class="bottom-card">
+            <div></div>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="bg-card">
+            <img src="images/ceobg10.png" alt="" srcset="" />
+          </div>
+          <div class="profil-card">
+            <img src="images/ceo-character4.png" alt="" srcset="" />
+          </div>
+          <div class="center-card">
+            <a href="">alexander pul</a>
+            <p>ceo</p>
+          </div>
+          <div class="bottom-card">
+            <div></div>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="bg-card">
+            <img src="images/ceobg11.png" alt="" srcset="" />
+          </div>
+          <div class="profil-card">
+            <img src="images/ceo-character1.png" alt="" srcset="" />
+          </div>
+          <div class="center-card">
+            <a href="">alexander pul</a>
+            <p>ceo</p>
+          </div>
+          <div class="bottom-card">
+            <div></div>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="bg-card">
+            <img src="images/ceobg2.png" alt="" srcset="" />
+          </div>
+          <div class="profil-card">
+            <img src="images/ceo-character6.png" alt="" srcset="" />
+          </div>
+          <div class="center-card">
+            <a href="">alexander pul</a>
+            <p>ceo</p>
+          </div>
+          <div class="bottom-card">
+            <div></div>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+    <footer>
+      <div class="footer-1">
+        <img src="images/logo.png" alt="" />
+        <div>
+          <p>Centerl Park West La, New York</p>
+          <p>+0 123 456 7890</p>
+          <p>info@andspa.com</p>
+        </div>
+
+        <div>
+          <h3>Open Hours</h3>
+          <strong>Sunday to Friday <span>08:00-20:00</span></strong>
+        </div>
+      </div>
+      <div class="footer-2">
+        <p class="footer-title">IMPORTANT LINKS</p>
+        <div>
+          <a href="#">CURATION</a>
+          <a href="#">ABOUT US</a>
+          <a href="#">MY ACCOUNT</a>
+          <a href="#">CONTACT</a>
+          <a href="#">SHIPPING & RETURNS</a>
+        </div>
+      </div>
+      <div class="footer-3">
+        <p class="footer-title">SUBSCRIBE</p>
+        <div>
+          <span
+            >Sedsit amet nisl inveli viverra bendum acnisi. Etiam efficitur.
+          </span>
+          <input type="text" placeholder="info@yourmail.com" />
+          <div class="header-btn">SUBSCRIBE</div>
+        </div>
+      </div>
+      <div class="footer-4">
+        <p class="footer-title">instgram</p>
+        <div class="insta-container">
+          <div>
+            <img src="images/ins-part-1.png" alt="" srcset="" />
+            <div></div>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div>
+            <img src="images/ins-part-2.png" alt="" srcset="" />
+            <div></div>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div>
+            <img src="images/inst-part-3.png" alt="" srcset="" />
+            <div></div>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div>
+            <img src="images/inst-part-4.png" alt="" srcset="" />
+            <div></div>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div>
+            <img src="images/inst-part-5.png" alt="" srcset="" />
+            <div></div>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div>
+            <img src="images/ins-part-6.png" alt="" srcset="" />
+            <div></div>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="top-btn">
+      <a href="#">
+        <i class="fa-solid fa-angle-up"></i>
+      </a>
+    </div>
+    <div class="copy-right">
+      <p>© 2024 By dyat, All Rights Reserved</p>
+      <img src="images/visa.png" alt="" srcset="" />
+    </div>
+  </body>
+</html>
